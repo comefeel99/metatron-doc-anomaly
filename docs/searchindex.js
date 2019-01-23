@@ -1,0 +1,1 @@
+Search.setIndex({docnames:["index"],envversion:55,filenames:["index.rst"],objects:{},objnames:{},objtypes:{},terms:{"\uac80\uc0c9":0,"\ubaa8\ub4c8":0,"\ubaa9\ub85d":0,"\uc0c9\uc778":0,"\ud398\uc774\uc9c0":0},titles:["Welcome to metatron-anomaly-docs's documentation!"],titleterms:{anomali:0,doc:0,document:0,indic:0,metatron:0,tabl:0,welcom:0}})
