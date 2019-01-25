@@ -96,8 +96,10 @@
 <li class="toctree-l3"><a class="reference internal" href="choose_metrics.html">모니터링할 지표 선택하기</a></li>
 <li class="toctree-l3"><a class="reference internal" href="choose_model.html">모델 선택하기</a></li>
 <li class="toctree-l3"><a class="reference internal" href="set_alarm_rules.html">알람 룰 설정하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="complete_alarm_rules.html">알람 룰 만들기 완성</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="alarm_rule_list.html">알람 룰 리스트</a></li>
 <li class="toctree-l2"><a class="reference internal" href="alarm_rule_detail.html">알람 룰 상세</a></li>
 </ul>
 </li>
@@ -171,20 +173,29 @@
             
   <div class="section" id="id1">
 <h1>알람 룰 만들기<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>대상 데이타 선정, 모델 트레이닝을 위한 범위 및 값 선정, 자동 트레이닝, 최적 모델의 선정, 알람 규칙 설정 등을
+순차적으로 수행하여 사용자가 원하는 알람룰을 쉽게 생성할수 있도록 지원한다.</p>
+<div class="figure align-center" id="id2">
+<img alt="Figure 1. create rule" src="../_images/create_rule_01.png" />
+<p class="caption"><span class="caption-text">Figure 1. create rule</span></p>
+</div>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="choose_data_source.html">데이터 소스 선택하기</a></li>
-<li class="toctree-l1"><a class="reference internal" href="choose_metrics.html">모니터링할 지표 선택하기</a></li>
-<li class="toctree-l1"><a class="reference internal" href="choose_model.html">모델 선택하기</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="choose_model.html#id2">학습할 데이터 기간 선택하기</a></li>
-<li class="toctree-l2"><a class="reference internal" href="choose_model.html#id3">모델 종류</a></li>
-<li class="toctree-l2"><a class="reference internal" href="choose_model.html#id4">모델 추천</a></li>
+<li class="toctree-l1"><a class="reference internal" href="choose_metrics.html">모니터링할 지표 선택하기</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="choose_metrics.html#select-measure">Select Measure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="choose_metrics.html#add-filter">Add Filter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="choose_metrics.html#select-training-interval">Select Training Interval</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="choose_model.html">모델 선택하기</a></li>
 <li class="toctree-l1"><a class="reference internal" href="set_alarm_rules.html">알람 룰 설정하기</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="set_alarm_rules.html#id2">알람받을 유저 추가하기</a></li>
+<li class="toctree-l2"><a class="reference internal" href="set_alarm_rules.html#set-alarm-interval">Set Alarm Interval</a></li>
+<li class="toctree-l2"><a class="reference internal" href="set_alarm_rules.html#set-alarm-condition">Set Alarm Condition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="set_alarm_rules.html#set-alarm-notification-user">Set Alarm Notification User</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="complete_alarm_rules.html">알람 룰 만들기 완성</a></li>
 </ul>
 </div>
 </div>
